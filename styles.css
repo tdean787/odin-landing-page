@@ -58,6 +58,7 @@ nav {
   display: flex;
   margin-bottom: 4em;
   justify-content: center;
+  gap: 15px;
 }
 
 .random-info div {
@@ -86,4 +87,47 @@ nav {
   font-size: 24px;
   text-align: right;
   font-weight: 700;
+}
+
+.random-info div {
+  width: 140px;
+}
+
+#box-1 {
+  height: 140px;
+  width: 140px;
+  background-color: #3590f3;
+  border-radius: 10px;
+}
+
+#box-2 {
+  height: 140px;
+  width: 140px;
+  background-color: #62bfed;
+  border-radius: 10px;
+}
+#box-3 {
+  height: 140px;
+  width: 140px;
+  background-color: #8fb8ed;
+  border-radius: 10px;
+}
+#box-4 {
+  height: 140px;
+  width: 140px;
+  background-color: #c2bbf0;
+  border-radius: 10px;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  display: flex;
+  margin: 3em;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.call-to-action div {
+  margin: 25px;
 }
