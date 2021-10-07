@@ -12,6 +12,7 @@ button {
   color: white;
   padding: 10px 25px;
   border-radius: 10px;
+  border: 1px solid #ffffff;
 }
 
 header {
@@ -126,8 +127,20 @@ nav {
   justify-content: space-between;
   align-items: center;
   border-radius: 15px;
+  color: #ffffff;
 }
 
 .call-to-action div {
   margin: 25px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.footer-text {
+  margin-bottom: 0;
 }
